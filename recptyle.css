@@ -1,0 +1,31 @@
+body{
+    height: 200vh;
+}
+.rate{
+    width: 20%;
+}
+.wra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    max-width: 200px;
+	min-height: 40px;
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	outline: none;
+	background: #e8e8e8;
+	box-shadow: 5px 5px 17px #c8c8c8,
+			   -5px -5px 17px #ffffff;
+	border: none;
+	border-radius: 10px;
+	transition: all .5s;
+	width: 70%;
+}
+button h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: #090909bc;
+    
+}
